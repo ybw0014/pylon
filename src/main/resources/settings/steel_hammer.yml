@@ -6,7 +6,7 @@ attack-damage: 7
 attack-knockback: 3
 
 base-block: pylon:steel_block
-mining-level: NETHERITE
+mining-level: netherite
 
 sound:
   sound: minecraft:block.anvil.use

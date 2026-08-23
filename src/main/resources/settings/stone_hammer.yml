@@ -6,7 +6,7 @@ attack-damage: 1
 attack-knockback: 1
 
 base-block: minecraft:stone
-mining-level: STONE
+mining-level: stone
 
 sound:
   sound: minecraft:block.anvil.use

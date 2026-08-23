@@ -6,7 +6,7 @@ attack-damage: 4
 attack-knockback: 1.75
 
 base-block: pylon:bronze_block
-mining-level: DIAMOND
+mining-level: diamond
 
 sound:
   sound: minecraft:block.anvil.use
