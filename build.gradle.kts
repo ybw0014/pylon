@@ -29,8 +29,8 @@ repositories {
     }
 }
 
-val rebarVersion = project.properties["rebar.version"] as String
-val minecraftVersion = project.properties["minecraft.version"] as String
+val rebarVersion = providers.gradleProperty("rebar.version").get()
+val minecraftVersion = providers.gradleProperty("minecraft.version").get()
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:$minecraftVersion.build.+")
